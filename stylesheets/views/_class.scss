@@ -1,0 +1,89 @@
+.title-header {
+  text-align: center;
+  font-family: Lauren;
+  margin:3% 0% 2%;
+  font-size: 60px;
+  color: #F0F0F0;
+}
+
+.navbar-nav{
+  text-align: center;
+  float: none;
+  li {
+     float: none;
+     display: inline-block;
+     @media screen and (max-width: #{$screen-phone}) {
+      display: block;
+     }
+  }
+}
+
+.navbar-nav > li > a {
+  width: 8em;
+  height: 3em;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #F0F0F0;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: rgba(218, 212, 212, 0.35);
+}
+
+.title-class {
+  color: mediumaquamarine;
+  font-weight: 600;
+  margin:4% auto 0%;
+  font-size: 50px;
+  text-align: center;
+}
+
+ .fondo {
+  background-image: url(../Img/fondos/celeste-aves-blancas.png);
+ }
+
+
+.clases {
+  background-color: #F0F0F0;
+  border-top: 2px solid rgb(200, 198, 198);
+}
+
+.margencito {
+    margin-top: 4.5%;
+}
+
+.padding {
+  padding: 0% 8%;
+}
+
+.grid-class {
+  margin-bottom: 4em;
+  width: 100%;
+  height: auto;
+}
+
+.imag-content img {
+  width: 100%;
+}
+
+.text-content {
+  background-color: #D8D7D7;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+}
+
+.text-content h3 {
+  font-weight: 600;
+  color: rgb(91, 87, 87);
+  padding: 0.2rem 0 0.9rem;
+}
+
+.footer {
+  margin-top: 5%;
+  background-color: gray;
+  width: 100%;
+  height: 4em;
+}
